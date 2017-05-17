@@ -1,0 +1,23 @@
+Througout app:
+Make it look good (CSS)
+
+Sign up/ login page:
+Retrieve forgotten password 
+Link to source code on github
+
+Submission page:
+Method for submitting less than 3 gratitudes (e.g. 2 for now, 1 later)
+Option for adding photo/or video to gratitude
+Suggestions for ideas of things to be grateful for (on request)
+Make submitted user data private - so I cant see it in firebase console by prepending it with a common pattern e.g. *********** 
+
+
+Retrieve all gratitudes page:
+Method for retrieving data without ******* (see above)
+Method of initially limiting gratitudes to however many can fit on users screen (or sensible number e.g. 50) then extend as scroll down or on request rather than unlimited
+Method for exporting data in useful format (e.g. json object or excel spreadsheet/ CSV)
+Option for cool visualisations 
+Option for adding photo/video to existing gratitudes
+
+
+

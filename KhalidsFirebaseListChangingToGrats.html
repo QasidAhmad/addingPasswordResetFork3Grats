@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script> 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ </head>
+ <body>
+ <input type='text' id='tempInput' placeholder='Qasid'>
+ <button type="button" onclick="doButtonAction()">run</button>
+ <div id="tempOutput"></div>
+ <script>
+ // Initialize Firebase
+ var config = {
+    apiKey: "AIzaSyCU9hxAVkN5MMVz-jnwch_fgdT7UG1tbiw",
+    authDomain: "khalidlisttest.firebaseapp.com",
+    databaseURL: "https://khalidlisttest.firebaseio.com",
+    storageBucket: "khalidlisttest.appspot.com",
+    messagingSenderId: "725192496361"
+  };
+  firebase.initializeApp(config);
+ 
+ // set location on firebase to read and write
+ var QasidDataRef = firebase.database().ref("Qasid");
+ 
+ //write to Firebase
+ function doButtonAction(){
+ var temp = $('#tempInput').val();
+ QasidDataRef.push({Gratitude: temp});
+ }
+ 
+ //read from firebase
+ QasidDataRef.limitToLast(10).on('child_added', function(snapshot) {
+ var output = snapshot.val();
+ $('#tempOutput').prepend("<br>"+output.Gratitude);
+ });
+ </script>
+ </body>
+</html>

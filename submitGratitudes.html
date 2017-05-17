@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'>//JQuery </script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js">// Firebase library</script>  
+    <script src='initFirebase.js'>// Initializing Firebase</script>
+    <script src='ifNotLoggedInThenRedirect.js'>//if user is not logged in, re-direct to login page</script>
+    <meta charset="UTF-8"> <!--default encoding-->
+    <title>be grateful :)</title>
+  </head>
+  <body>
+  <p> Name three things your grateful for and why:</p>
+  <!--TODO replace following list programatically-->
+  <span style="white-space:nowrap">
+        <label for='gratitudeInput1'>1) I am grateful for</label>
+         <input id='gratitudeInput1' type="text" autofocus>
+      </span>
+      <span style="white-space:nowrap">
+        <label for='reasonInput1'>because</label>
+        <input id='reasonInput1' type="text" size="80" >
+      </span> 
+        <br><br>
+      <span style="white-space:nowrap">
+        <label for='gratitudeInput2'>2) I am grateful for</label>
+         <input id='gratitudeInput2' type="text"  autofocus>
+      </span>
+      <span style="white-space:nowrap">
+        <label for='reasonInput2'>because</label>
+        <input id='reasonInput2' type="text" size="80" >
+      </span> 
+        <br><br>
+      <span style="white-space:nowrap">
+        <label for='gratitudeInput3'>3) I am grateful for</label>
+         <input id='gratitudeInput3' type="text"  autofocus>
+      </span>
+      <span style="white-space:nowrap">
+        <label for='reasonInput3'>because</label>
+        <input id='reasonInput3' type="text" size="80" >
+      </span> 
+        <br><br>
+
+<script src='focusInputs.js'>//makes input fields focus on click</script>
+
+<button type='button' id='done'> Save </button>
+<script src='saveData.js'>//done button functionality</script>
+
+<!--TODO: add logout button and 'logged in as asfswedg@gfweg.com' notification at bottom of page-->
+<br><br>
+<span id='signedInAs'></span>
+ <a href=index.html onclick='logOut()'> sign out</a>
+  <script src='signedInAs.js'>//to inform user which email they are signed in with</script>
+  <script src='logOut.js'></script>
+  </body>
+</html>

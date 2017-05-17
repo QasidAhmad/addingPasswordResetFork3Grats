@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'>//JQuery </script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js">// Firebase library</script>  
+    <script src='initFirebase.js'>// Initializing Firebase</script>
+    <meta charset="UTF-8">
+    <title>Enjoy your gratitudes :)</title>
+  </head>
+  <body>
+<!--header ('signed in as' notice and signout link)-->
+<span id='signedInAs' class='footer'></span>
+<a href=index.html onclick='logOut()' class='footer'> sign out</a>
+<br>
+<a href=submitGratitudes.html> Submit more gratitudes </a>
+
+<h1> Here are all your gratitudes: </h1>
+
+<div id='gratsListOutputDiv'></div>
+
+<script src='retrieveAllGrats.js'></script>
+
+
+<script src="logOut.js">//log out functionality</script>
+<script src='signedInAs.js'>//to inform user which email they are signed in with</script>
+  </body>
+</html>
