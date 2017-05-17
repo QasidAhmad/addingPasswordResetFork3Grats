@@ -1,0 +1,35 @@
+<h1> Overview <h1>
+<p> Welcome! <br><br>
+Spending a few minutes every day to count the things your grateful for has been proven to significantly improve 
+your long term well-being in just a few weeks 
+(<a href="http://psycnet.apa.org/?&fa=main.doiLanding&doi=10.1037/0022-3514.84.2.377"> Emmons &#38 McCullough, 2003 </a>). 
+<br><br> So I started writing down three things I was grateful for every day and it really worked wonders for me. 
+But I soon lost these notes, lost track of whether I had done it and sometimes I didn’t have a pen and paper at hand 
+when it came to mind. <br><br> So I made this web app to more conveniently record three things I’m grateful for and 
+why every day. 
+
+Start using the app from index.html 
+
+enjoy :)
+
+<h1> Features to add </h1>
+Througout app:
+Make it look good (CSS)
+
+Sign up/ login page:
+Retrieve forgotten password 
+Link to source code on github
+
+Submission page:
+Method for submitting less than 3 gratitudes (e.g. 2 for now, 1 later)
+Option for adding photo/or video to gratitude
+Suggestions for ideas of things to be grateful for (on request)
+Make submitted user data private - so I cant see it in firebase console by prepending it with a common pattern e.g. *********** 
+
+
+Retrieve all gratitudes page:
+Method for retrieving data without ******* (see above)
+Method of initially limiting gratitudes to however many can fit on users screen (or sensible number e.g. 50) then extend as scroll down or on request rather than unlimited
+Method for exporting data in useful format (e.g. json object or excel spreadsheet/ CSV)
+Option for cool visualisations 
+Option for adding photo/video to existing gratitudes
