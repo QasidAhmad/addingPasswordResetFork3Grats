@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'>//JQuery </script>
+      <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js">// Firebase</script>  
+      <script src='initFirebase.js'>// Initializing Firebase</script>
+      <script src='ifAlreadyLoggedInThenRedirect.js'>//if logged in already, redirect to submission page</script>
+    <meta charset="UTF-8">
+    <title>3 Gratitudes</title>
+  </head>
+  <body>
+<!-- Welcome intro -->
+<p> Welcome! <br><br>
+Spending a few minutes every day to count the things your grateful for has been proven to significantly improve 
+your long term well-being in just a few weeks 
+(<a href="http://psycnet.apa.org/?&fa=main.doiLanding&doi=10.1037/0022-3514.84.2.377"> Emmons &#38 McCullough, 2003 </a>). 
+<br><br> So I started writing down three things I was grateful for every day and it really worked wonders for me. 
+But I soon lost these notes, lost track of whether I had done it and sometimes I didn’t have a pen and paper at hand 
+when it came to mind. <br><br> So I made this web app to more conveniently record three things I’m grateful for and 
+why every day. <br><br> If you would like to use it, you need to sign up or login below just so that you can keep a 
+record for yourself. Its free. Enjoy. <br><br>
+</p>	
+<!--input fiels for login with email and password-->    
+<p> Email: <input type='email' id='email' style="display: inline;" /> </p>
+<p> Password: <input type='password' id='password' style="display: inline;" /> </p>
+<button type="button" id="login">Login</button> 	
+<button type="button" id="register">Register</button>
+<a href="passwordReset.html">Forgot password?</a> 
+<br>
+
+<script src='logIn.js'></script>
+<script src='register.js'></script>
+  </body>
+</html>
