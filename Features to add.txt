@@ -1,8 +1,11 @@
 Througout app:
+Offline mode
+Mobile friendly
 Make it look good (CSS)
 
 Sign up/ login page:
-Retrieve forgotten password 
+Retrieve forgotten password
+login with gmail /facebook  
 Link to source code on github
 
 Submission page:
