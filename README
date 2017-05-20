@@ -1,35 +1,36 @@
-<h1> Overview <h1>
-<p> Welcome! <br><br>
+
+ Welcome! 
 Spending a few minutes every day to count the things your grateful for has been proven to significantly improve 
 your long term well-being in just a few weeks 
-(<a href="http://psycnet.apa.org/?&fa=main.doiLanding&doi=10.1037/0022-3514.84.2.377"> Emmons &#38 McCullough, 2003 </a>). 
-<br><br> So I started writing down three things I was grateful for every day and it really worked wonders for me. 
+http://psycnet.apa.org/?&fa=main.doiLanding&doi=10.1037/0022-3514.84.2.377 (Emmons &McCullough, 2003). 
+So I started writing down three things I was grateful for every day and it really worked wonders for me. 
 But I soon lost these notes, lost track of whether I had done it and sometimes I didn’t have a pen and paper at hand 
-when it came to mind. <br><br> So I made this web app to more conveniently record three things I’m grateful for and 
+when it came to mind. So I made this web app to more conveniently record three things I’m grateful for and 
 why every day. 
 
 Start using the app from index.html 
+I hosted the version of this web app which I first uploaded to this git repo here: https://dkerhhfjudzfr.cloudfront.net   
 
-enjoy :)
+See Features to add.text for list of things I would like to improve. Please feel free to add. Thank you :)
 
-<h1> Features to add </h1>
-Througout app:
-Make it look good (CSS)
+MIT License
 
-Sign up/ login page:
-Retrieve forgotten password 
-Link to source code on github
+Copyright (c) [2017] [Syed Qasid Safeer Ahmad]
 
-Submission page:
-Method for submitting less than 3 gratitudes (e.g. 2 for now, 1 later)
-Option for adding photo/or video to gratitude
-Suggestions for ideas of things to be grateful for (on request)
-Make submitted user data private - so I cant see it in firebase console by prepending it with a common pattern e.g. *********** 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Retrieve all gratitudes page:
-Method for retrieving data without ******* (see above)
-Method of initially limiting gratitudes to however many can fit on users screen (or sensible number e.g. 50) then extend as scroll down or on request rather than unlimited
-Method for exporting data in useful format (e.g. json object or excel spreadsheet/ CSV)
-Option for cool visualisations 
-Option for adding photo/video to existing gratitudes
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
