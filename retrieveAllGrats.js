@@ -17,7 +17,7 @@
         for (i=0; i<gratitudes.length; i++){ //looping through (3) gratitudes and reasons for each submission
         gratitude= gratitudes[i]; // exctrating current gratitude in loop
         reason= reasons[i]; // extracting current reason in loop
-        $('#gratsListOutputDiv').append("<br>"+ "I am grateful for " + gratitude +
+        $('#gratsListOutputDiv').append("<br><br>"+ "I am grateful for " + gratitude +
          " because " + reason);//outputting gratitude and reason
             }
         
